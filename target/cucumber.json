@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-26T03:43:45.643Z",
+        "before": [
+          {
+            "result": {
+              "duration": 44613122400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginSteps.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3854028100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to herokuapp website",
+            "match": {
+              "location": "steps.LoginSteps.user_navigates_to_herokuapp_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4474624600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid username",
+            "match": {
+              "location": "steps.LoginSteps.user_enters_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284092800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters valid password",
+            "match": {
+              "location": "steps.LoginSteps.user_enters_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2703882300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "steps.LoginSteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245847500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be taken to welcome login page",
+            "match": {
+              "location": "steps.LoginSteps.user_should_be_taken_to_welcome_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFiles/Login.feature",
+    "tags": []
+  }
+]
